@@ -14,7 +14,7 @@ public class MaxinumAndMinimunNumInArray {
 			    max=arr[i];
 			}	
 		}
-		System.out.println("Maximum number in a given array : "+max);
+		System.out.println("Maximum number in a given array : "+max);  // output : 9876
 		
 		int min = arr[0];
 		for(int i = 0;i<arr.length;i++) {
@@ -23,7 +23,7 @@ public class MaxinumAndMinimunNumInArray {
 				
 				min = arr[i];
 			}}
-			System.out.print("Minimum number in a given array : "+min);
+			System.out.print("Minimum number in a given array : "+min); // output :59
 		}
 	}
 	

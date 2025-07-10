@@ -15,5 +15,7 @@ public class SumOFAnArray {
        System.out.println("sum of array is :"+sum);
        
 	}
+	
+	
 
 }

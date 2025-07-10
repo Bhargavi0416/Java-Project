@@ -7,7 +7,6 @@ public class CharacterCountProgramUsingMap {
 
 	public static void main(String[] args) {
 		
-		
 		String name = "Bhargavi";
 		
 		Map<Character,Integer> hashmap = new HashMap<Character,Integer>();
@@ -28,7 +27,7 @@ public class CharacterCountProgramUsingMap {
 			}
 		}
 		
-		System.out.print(name +" : "+hashmap);
+		System.out.print(name +" : "+hashmap);  // output : Bhargavi : {a=2,B=1,r=1,v=1,g=1,h=1,i=1}
 	}
 
 }

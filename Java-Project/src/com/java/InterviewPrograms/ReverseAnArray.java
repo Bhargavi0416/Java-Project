@@ -17,10 +17,10 @@ public class ReverseAnArray {
 			j--;
 			
 		}
-		//System.out.print(Arrays.toString());
+		//System.out.print(Arrays.toString(arr));
 		for(i = 0; i<=arr.length-1;i++){
-            System.out.print(arr[i]+","); }
+           System.out.print(arr[i]+","); }
 		
-	}
+	}}
 
-}
+

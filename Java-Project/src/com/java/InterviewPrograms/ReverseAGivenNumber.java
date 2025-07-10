@@ -7,11 +7,11 @@ public class ReverseAGivenNumber {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.print("enter a value of number :");
+		System.out.print("enter a value of number :"); // output : 12345
 		int number = sc.nextInt();
-		System.out.print("enter a value of reverse :");
+		System.out.print("enter a value of reverse :"); // value : 0
 		int reverse = sc.nextInt();
-		System.out.print("enter a value for remainder :");
+		System.out.print("enter a value for remainder :"); // value : 0
 		int remainder = sc.nextInt();
 		while(number>0) {
 			remainder = number%10;
@@ -19,7 +19,7 @@ public class ReverseAGivenNumber {
 			number = number/10;
 		}
 		
-		System.out.println("Reverse A given number is :"+reverse);
+		System.out.println("Reverse A given number is :"+reverse); // output : 54321
 	}
 
 }

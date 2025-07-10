@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.171" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="check the homepage functionality" name="Check the logout function" time="0.007">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+When user enters username and password......................................passed
+And clicks on login button..................................................passed
+Then user is navigated to homepage..........................................passed
+When user click on the welcome link.........................................passed
+Then logout link is displayed...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check the homepage functionality" name="verify quick launch toolbar is present" time="0.002">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+When user enters username and password......................................passed
+And clicks on login button..................................................passed
+Then user is navigated to homepage..........................................passed
+When user click on dashboard link...........................................passed
+Then quick launch toolbar is diaplayed......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

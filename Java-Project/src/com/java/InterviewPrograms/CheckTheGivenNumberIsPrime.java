@@ -14,7 +14,7 @@ public class CheckTheGivenNumberIsPrime {
 					count++;
 				}}
 				if(count==2) {
-					System.out.print("it is a prime number");
+					System.out.print("it is a prime number"); // it is a prime number 
 				}else {
 					System.out.print("it is not a prime number");
 				}
